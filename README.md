@@ -48,13 +48,17 @@ endmodule
 ```
 OUTPUT WAVEFORM
 
-![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/779a9b88-13f9-4f79-a326-68dffc8a7fcc)
 
  4-BIT MULTIPLIER:
- 
+
+![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/1084b293-7596-487b-ad01-1aac43ccafdd)
+
+
 LOGIC DIAGRAM
 
- ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/94db7764-6a49-4349-9511-7d30a5d04981)
+![318350783-e9423ec2-41b0-4e2d-9931-05f4554a7393](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/e4966a45-715f-47ff-a364-dd67cec3accc)
+
+ 
 
 VERILOG CODE
 ```
@@ -116,7 +120,8 @@ endmodule
 
 OUTPUT WAVEFORM
 
-![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/ea0da4bf-982b-4df8-9c3e-565b0c7f9efd)
+
+![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/7a1ceda0-63d1-40bb-be1a-c5e9e8e67c7d)
 
  
 
