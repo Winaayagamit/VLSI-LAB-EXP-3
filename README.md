@@ -1,31 +1,47 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
- AIM:  
- 
-To simulate multiplier using Vivado 2023.2.
+**SIMULATION AND IMPLEMENTATION OF MULTIPLIER****
 
-APPARATUS REQUIRED:
+**AIM:**
 
- Vivado 2023.2
- 
-PROCEDURE: 
+To simulate and synthesis multiplier using vivado 2023.3.
 
-STEP:1 Start the Xilinx navigator, Select and Name the New project. 
-STEP:2 Select the device family, device, package and speed.
-STEP:3 Select new source in the New Project and select Verilog Module as the Source type.
-STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it. 
-STEP:5 Select the Behavioral Simulation in the Source Window and click the check syntax.
-STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
+**APPARATUS REQUIRED:**
 
-2 BIT MULTIPLIER:
+vivado software.
+  
+**PROCEDURE:**
 
-Logic Diagram 
+1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
-![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-3/assets/159941167/fed3ba70-2d62-4402-ae9b-00af89157f0a)
- 
-VERILOG CODE
-```
-2 bit multiplier
+2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
+
+3. Project Settings: Follow the prompts to set up your project. Specify the project name, location, and select RTL project type.
+
+4. Add Design Files: Add your Verilog design files to the project. You can do this by right-clicking on "Design Sources" in the Sources window, then selecting "Add Sources". Choose your Verilog files from the file browser.
+
+5. Specify Simulation Settings: Go to "Simulation" > "Simulation Settings". Choose your simulation language (Verilog in this case) and simulation tool (Vivado Simulator).
+
+6. Run Simulation: Go to "Flow" > "Run Simulation" > "Run Behavioral Simulation". This will launch the Vivado Simulator and compile your design for simulation.
+
+7. Set Simulation Time: In the Vivado Simulator window, set the simulation time if it's not set automatically. This determines how long the simulation will run.
+
+8. Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
+
+9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
+
+**Logic Diagram**
+
+**2 bit Multiplier**
+
+![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
+
+
+
+**Verilog code**
+
+**Multiplexer 2bit**
+~~~
+ha adder2(w3,w4,p[2],cout);
 module ha(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -42,27 +58,22 @@ and (w1,a[0],b[1]);
 and (w2,a[1],b[0]);
 and (w3,a[1],b[1]);
 ha adder1(w1,w2,p[1],w4);
-ha adder2(w3,w4,p[2],cout);
-
 endmodule
-```
-OUTPUT WAVEFORM
+~~~
+**Output 
+
+![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/5e87c128-6e6f-4dff-9566-b27748943425)
+veform**
 
 
- 4-BIT MULTIPLIER:
+**4bit
+LOGIC DIAGRAM**
 
-![318350573-560eccc5-6a68-48f0-ae9c-f721fb0b33c0](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/1084b293-7596-487b-ad01-1aac43ccafdd)
+![318350783-e9423ec2-41b0-4e2d-9931-05f4554a7393](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/c4913a1e-e4c1-4aa2-b1b6-ee5482568b91)
 
-
-LOGIC DIAGRAM
-
-![318350783-e9423ec2-41b0-4e2d-9931-05f4554a7393](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/e4966a45-715f-47ff-a364-dd67cec3accc)
-
- 
-
-VERILOG CODE
-```
-4 bit multiplier
+**VERILOG CODE
+4 bit multiplier**
+~~~
 module ha(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -117,14 +128,13 @@ fa r72(w[13],fs[3],hc[3],p[4],fc[5]);
 fa r73(w[14],fs[4],fc[5],p[5],fc[6]);
 fa r74(w[15],fc[4],fc[6],p[6],p[7]);
 endmodule
+~~~
 
-OUTPUT WAVEFORM
+**OUTPUT WAVEFORM**
 
 
-![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/f8f8087e-aac4-480e-8926-741d5766b454)
+![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/b7ffed15-5168-4c44-b3c2-2ec8eae8447c)
 
- 
+**Result**
 
-RESULT
-
-To simulation 2-bit and 4-bit multiplier are verified successfullly.
+simulation and synthesis multiplier using vivado2023.3 completed successesfully
