@@ -120,8 +120,8 @@ endmodule
 
 OUTPUT WAVEFORM
 
-![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/b4382772-a30f-4f7c-b7bc-c5d6e13792a5)
 
+![318351128-ea14e5dc-d59e-4093-84c9-00b1657d4c26](https://github.com/Winaayagamit/VLSI-LAB-EXP-3/assets/160568583/f8f8087e-aac4-480e-8926-741d5766b454)
 
  
 
